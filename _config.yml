@@ -1,0 +1,18 @@
+title: Balora
+baseurl: /balora
+url: https://vitiori.github.io
+
+# Responsable de la app y de los datos (aparece en la política de privacidad y en las condiciones).
+owner: "Victor Orihuel Arribas"
+country:
+  en: Spain
+  es: España
+  fr: Espagne
+email: developer.vitio@gmail.com
+updated:
+  en: 3 October 2026
+  es: 3 de octubre de 2026
+  fr: 3 octobre 2026
+
+exclude:
+  - README.md
