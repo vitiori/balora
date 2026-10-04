@@ -31,7 +31,8 @@ des données que vous saisissez. Ils ne constituent pas un conseil financier, d'
 
 Vos données sont enregistrées uniquement sur votre téléphone et le développeur n'en a aucune copie. Il vous appartient
 de faire des sauvegardes : si vous perdez votre téléphone ou désinstallez l'application sans sauvegarde, vos données ne
-peuvent pas être récupérées. Si vous oubliez le mot de passe d'une sauvegarde chiffrée, personne ne peut l'ouvrir.
+peuvent pas être récupérées. La sauvegarde automatique interne et la sauvegarde d'Android aident, mais ne remplacent pas
+l'export d'une sauvegarde. Si vous oubliez le mot de passe d'une sauvegarde chiffrée, personne ne peut l'ouvrir.
 
 ## 4. Import de relevés bancaires
 
@@ -41,13 +42,15 @@ catégories automatiquement ; vérifiez le résultat avant d'importer.
 ## 5. Fonctions gratuites
 
 Noter vos dépenses et revenus, les widgets, le résumé, le patrimoine, le rapport annuel, la mascotte, le verrouillage de
-l'application ainsi que l'export et l'import de vos sauvegardes sont gratuits. Vos propres données ne sont jamais
+l'application, le transfert de vos données vers un nouveau téléphone avec Android, l'export et l'import de vos
+sauvegardes (avec tous vos profils) et l'effacement de vos données sont gratuits. Vos propres données ne sont jamais
 bloquées derrière un paiement.
 
 ## 6. Abonnement Balora Plus
 
 - **Ce qu'il comprend :** l'import de relevés bancaires, les opérations récurrentes, les budgets par catégorie,
-  l'onglet Analyse et la sauvegarde sur votre compte Google.
+  l'onglet Analyse, plusieurs profils et la sauvegarde sur votre compte Google (avec Android 9 ou ultérieur et le
+  verrouillage de l'écran activé).
 - **Formules :** mensuelle ou annuelle. Le prix dans votre pays, taxes comprises, est affiché par Google Play avant de
   vous abonner.
 - **Essai gratuit :** les nouveaux abonnés bénéficient de 14 jours d'essai gratuit, une fois par compte Google. Google
@@ -57,8 +60,10 @@ bloquées derrière un paiement.
 - **Résiliation :** vous pouvez résilier à tout moment dans Google Play (*Paiements et abonnements › Abonnements*) ou
   depuis *Réglages › Balora Plus* dans l'application. Vous gardez l'accès jusqu'à la fin de la période payée.
 - **À la fin :** rien n'est supprimé. Vos opérations récurrentes sont mises en pause, vos budgets par catégorie sont
-  masqués et tout ce qui a été créé avec Balora Plus (comme les opérations importées ou générées) reste dans
-  l'application. Si vous vous réabonnez, tout revient.
+  masqués, les profils autres que le principal passent en lecture seule (vous pouvez les consulter, les exporter et les
+  supprimer) et tout ce qui a été créé avec Balora Plus (comme les opérations importées ou générées) reste dans
+  l'application. Si vous vous réabonnez, tout revient ; les opérations récurrentes arrivées à échéance pendant que vous
+  n'aviez pas l'abonnement ne sont pas créées.
 - **Achats et remboursements :** ils sont gérés par Google Play selon ses conditions et ses règles de remboursement, qui
   incluent votre droit de rétractation lorsqu'il s'applique.
 - **Changements de prix :** Google Play vous prévient à l'avance, selon ses règles.
