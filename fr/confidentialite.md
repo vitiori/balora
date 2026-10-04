@@ -41,7 +41,7 @@ Tout ce que vous saisissez est enregistré uniquement dans le stockage privé de
 - **Import de relevés bancaires :** le fichier que vous choisissez est lu sur le téléphone et n'est pas conservé.
   Balora garde les opérations que vous importez, le numéro de compte (IBAN) et le libellé d'origine de chaque opération
   importée, pour ne pas importer deux fois la même, ainsi que les modèles d'import que vous enregistrez.
-- **Sauvegarde automatique interne :** chaque jour et après vos modifications (au plus une fois par heure), Balora garde
+- **Sauvegarde automatique interne :** chaque jour, après vos modifications (au plus une fois par heure) et quand vous quittez l'application si vous avez modifié quelque chose, Balora garde
   une copie des données de chaque profil dans son stockage privé pour pouvoir les récupérer si la base de données est
   endommagée. Elle ne quitte le téléphone qu'avec la sauvegarde d'Android (section 3).
 
@@ -53,7 +53,7 @@ téléphone (sauf les sauvegardes que vous avez exportées vous-même).
 | Quand | Quoi | Qui le reçoit |
 |---|---|---|
 | Vous **exportez une sauvegarde** | Toutes vos données Balora, de tous vos profils, dans un fichier chiffré avec votre mot de passe ou en fichiers CSV (au choix) | Uniquement l'endroit que vous choisissez (le stockage du téléphone, une clé USB, un service cloud que vous utilisez…) |
-| Vous utilisez la **sauvegarde sur votre compte Google** (Balora Plus, désactivée tant que vous ne l'activez pas) | La sauvegarde automatique de chaque profil et la liste de vos profils, via le service de sauvegarde d'Android | Votre compte Google. Elle n'est envoyée qu'avec Android 9 ou ultérieur et le verrouillage de l'écran activé, chiffrée de bout en bout avec celui-ci : ni Google ni le développeur ne peuvent la lire ; sous Android 8, elle n'est pas envoyée. Si vous la désactivez ou si l'abonnement prend fin, Balora n'envoie plus de nouvelles sauvegardes, et Google conserve la dernière selon son service de sauvegarde. Google la traite selon ses [Règles de confidentialité](https://policies.google.com/privacy?hl=fr) |
+| Vous utilisez la **sauvegarde sur votre compte Google** (Balora Plus, désactivée tant que vous ne l'activez pas) | La sauvegarde automatique de chaque profil et la liste de vos profils, via le service de sauvegarde d'Android | Votre compte Google. Elle n'est envoyée qu'avec Android 9 ou ultérieur et le verrouillage de l'écran activé, chiffrée de bout en bout avec celui-ci : ni Google ni le développeur ne peuvent la lire ; sous Android 8, elle n'est pas envoyée. Si vous la désactivez ou si l'abonnement prend fin, Balora n'envoie plus de nouvelles sauvegardes (au plus tard le lendemain), et Google conserve la dernière selon son service de sauvegarde. Google la traite selon ses [Règles de confidentialité](https://policies.google.com/privacy?hl=fr) |
 | Vous **changez de téléphone** avec le transfert de données d'Android | La sauvegarde automatique de chaque profil et la liste de vos profils, copiées directement depuis l'ancien téléphone | Uniquement votre nouveau téléphone |
 | Vous **envoyez une suggestion** | Le texte que vous écrivez, votre adresse e-mail et les informations techniques affichées avant l'envoi : version de l'application, version d'Android, modèle du téléphone et langue. Jamais d'opérations, de soldes ni de montants | Le développeur, par e-mail depuis votre propre application de messagerie |
 
@@ -62,7 +62,9 @@ téléphone (sauf les sauvegardes que vous avez exportées vous-même).
 Les abonnements et les paiements de soutien sont gérés par **Google Play**. Le développeur ne reçoit pas les données de
 votre carte ni de votre paiement. Google lui transmet les informations de la commande (numéro de commande, produit,
 prix, pays ou région, date et état), utilisées uniquement pour gérer l'achat et respecter les obligations comptables et
-fiscales. Google traite votre paiement selon ses propres conditions et règles de confidentialité.
+fiscales. Google traite votre paiement selon ses propres conditions et règles de confidentialité. Pour savoir si vous avez Balora Plus, Balora interroge l'application
+Google Play de votre téléphone à son ouverture et une fois par jour en arrière-plan ; cette vérification n'envoie aucune donnée
+de Balora.
 
 ## 5. Rapports de plantage
 

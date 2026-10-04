@@ -39,7 +39,7 @@ Todo lo que apuntas se guarda solo en el almacenamiento privado de la app, en tu
 - **Importar extractos del banco:** el fichero que eliges se lee en el móvil y no se guarda. Balora conserva los
   movimientos que importas, el número de cuenta (IBAN) y el concepto original de cada movimiento importado, para no
   importar dos veces el mismo, y las plantillas de importación que guardes.
-- **Copia automática interna:** cada día y después de tus cambios (como mucho una vez por hora), Balora guarda una copia
+- **Copia automática interna:** cada día, después de tus cambios (como mucho una vez por hora) y al salir de la app si cambiaste algo, Balora guarda una copia
   de los datos de cada perfil en su almacenamiento privado, para poder recuperarlos si la base de datos se daña. Solo
   sale del móvil con la copia de seguridad de Android (apartado 3).
 
@@ -51,7 +51,7 @@ las copias que hayas exportado tú).
 | Cuándo | Qué | Quién lo recibe |
 |---|---|---|
 | **Exportas una copia** | Todos tus datos de Balora, de todos tus perfiles, en un fichero cifrado con tu contraseña o en ficheros CSV (tú eliges) | Solo el sitio que elijas (el almacenamiento del móvil, un USB, un servicio en la nube que uses…) |
-| Usas la **copia en tu cuenta de Google** (Balora Plus, desactivada hasta que la actives) | La copia automática de cada perfil y la lista de tus perfiles, mediante el servicio de copias de seguridad de Android | Tu cuenta de Google. Solo se envía con Android 9 o posterior y con el bloqueo de pantalla activado, cifrada de extremo a extremo con él, así que ni Google ni el desarrollador pueden leerla; en Android 8 no se envía. Si la desactivas o termina la suscripción, Balora deja de enviar copias nuevas, y la última que ya estaba la conserva Google según su servicio de copias de seguridad. Google la trata según su [Política de privacidad](https://policies.google.com/privacy?hl=es) |
+| Usas la **copia en tu cuenta de Google** (Balora Plus, desactivada hasta que la actives) | La copia automática de cada perfil y la lista de tus perfiles, mediante el servicio de copias de seguridad de Android | Tu cuenta de Google. Solo se envía con Android 9 o posterior y con el bloqueo de pantalla activado, cifrada de extremo a extremo con él, así que ni Google ni el desarrollador pueden leerla; en Android 8 no se envía. Si la desactivas o termina la suscripción, Balora deja de enviar copias nuevas (como mucho al día siguiente), y la última que ya estaba la conserva Google según su servicio de copias de seguridad. Google la trata según su [Política de privacidad](https://policies.google.com/privacy?hl=es) |
 | **Cambias de móvil** con la transferencia de datos de Android | La copia automática de cada perfil y la lista de tus perfiles, copiadas directamente desde el móvil antiguo | Solo tu móvil nuevo |
 | **Envías una sugerencia** | El texto que escribes, tu dirección de correo y los datos técnicos que se muestran antes de enviar: versión de la app, versión de Android, modelo del móvil e idioma. Nunca movimientos, saldos ni importes | El desarrollador, por correo desde tu propia app de correo |
 
@@ -60,7 +60,8 @@ las copias que hayas exportado tú).
 Las suscripciones y los pagos de apoyo los gestiona **Google Play**. El desarrollador no recibe los datos de tu tarjeta
 ni de tu pago. Google le facilita la información del pedido (número de pedido, producto, precio, país o región, fecha y
 estado), que se usa solo para gestionar la compra y cumplir las obligaciones contables y fiscales. Google trata tu pago
-según sus propias condiciones y política de privacidad.
+según sus propias condiciones y política de privacidad. Para saber si tienes Balora Plus, Balora pregunta a la app de
+Google Play de tu móvil al abrirse y una vez al día en segundo plano; esa consulta no envía ningún dato de Balora.
 
 ## 5. Informes de fallos
 

@@ -39,7 +39,7 @@ Everything you enter is stored only in the app's private storage on your phone:
 - **Bank statement import:** the file you choose is read on your phone and is not kept. Balora keeps the transactions
   you import, the account number (IBAN) and the original description of each imported transaction, so the same
   transaction is not imported twice, and the import templates you save.
-- **Automatic internal backup:** every day and after your changes (at most once an hour), Balora keeps a copy of each
+- **Automatic internal backup:** every day, after your changes (at most once an hour) and when you leave the app if you changed something, Balora keeps a copy of each
   profile's data in its private storage, so it can be recovered if the database gets damaged. It only leaves the phone
   with Android's backup (section 3).
 
@@ -51,7 +51,7 @@ the backups you have exported yourself).
 | When | What | Who receives it |
 |---|---|---|
 | You **export a backup** | All your Balora data, from all your profiles, in a file encrypted with your password or as CSV files (your choice) | Only the place you choose (your phone's storage, a USB drive, a cloud service you use…) |
-| You use the **Google account backup** (Balora Plus, off until you turn it on) | The automatic backup of each profile and the list of your profiles, through Android's backup service | Your Google account. It is only sent on Android 9 or later with a screen lock set, end-to-end encrypted with it, so neither Google nor the developer can read it; on Android 8 it is not sent. If you turn it off or your subscription ends, Balora stops sending new backups, and Google keeps the last one under its backup service. Google handles it under the [Google Privacy Policy](https://policies.google.com/privacy) |
+| You use the **Google account backup** (Balora Plus, off until you turn it on) | The automatic backup of each profile and the list of your profiles, through Android's backup service | Your Google account. It is only sent on Android 9 or later with a screen lock set, end-to-end encrypted with it, so neither Google nor the developer can read it; on Android 8 it is not sent. If you turn it off or your subscription ends, Balora stops sending new backups (by the next day at the latest), and Google keeps the last one under its backup service. Google handles it under the [Google Privacy Policy](https://policies.google.com/privacy) |
 | You **move to a new phone** with Android's data transfer | The automatic backup of each profile and the list of your profiles, copied directly from the old phone | Only your new phone |
 | You **send a suggestion** | The text you write, your email address, and technical details shown before sending: app version, Android version, phone model and language. Never transactions, balances or amounts | The developer, by email from your own email app |
 
@@ -60,7 +60,8 @@ the backups you have exported yourself).
 Subscriptions and support payments are processed by **Google Play**. The developer does not receive your card or
 payment details. Google provides the developer with order information (order number, product, price, country or region,
 date and status), which is used only to manage the purchase and to meet accounting and tax obligations. Google processes
-your payment under its own terms and privacy policy.
+your payment under its own terms and privacy policy. To know whether you have Balora Plus, Balora asks the Google Play app on
+your phone when it opens and once a day in the background; this check sends no Balora data.
 
 ## 5. Crash reports
 
