@@ -53,7 +53,7 @@ the backups you have exported yourself).
 | You **export a backup** | All your Balora data, from all your profiles, in a file encrypted with your password or as CSV files (your choice) | Only the place you choose (your phone's storage, a USB drive, a cloud service you use…) |
 | You use the **Google account backup** (Balora Plus, off until you turn it on) | The automatic backup of each profile and the list of your profiles, through Android's backup service | Your Google account. It is only sent on Android 9 or later with a screen lock set, end-to-end encrypted with it, so neither Google nor the developer can read it; on Android 8 it is not sent. If you turn it off or your subscription ends, Balora stops sending new backups (by the next day at the latest), and Google keeps the last one under its backup service. Google handles it under the [Google Privacy Policy](https://policies.google.com/privacy) |
 | You **move to a new phone** with Android's data transfer | The automatic backup of each profile and the list of your profiles, copied directly from the old phone | Only your new phone |
-| You **send a suggestion** | The text you write, your email address, and technical details shown before sending: app version, Android version, phone model and language. Never transactions, balances or amounts | The developer, by email from your own email app |
+| You **email us** (also with "Send a suggestion", which only opens your email app with our address and a subject) | What you write and your email address. Balora adds no text or data to the email | The developer, by email from your own email app |
 
 ## 4. Purchases: Balora Plus and support
 
