@@ -62,8 +62,8 @@ bloquées derrière un paiement.
 - **À la fin :** rien n'est supprimé. Vos opérations récurrentes sont mises en pause, vos budgets par catégorie sont
   masqués, les profils autres que le principal passent en lecture seule (vous pouvez les consulter, les exporter et les
   supprimer) et tout ce qui a été créé avec Balora Plus (comme les opérations importées ou générées) reste dans
-  l'application. Si vous vous réabonnez, tout revient ; les opérations récurrentes arrivées à échéance pendant que vous
-  n'aviez pas l'abonnement ne sont pas créées.
+  l'application. Si vous vous réabonnez, tout revient ; les opérations récurrentes arrivées à échéance sans abonnement il y a
+  plus d'une semaine ne sont pas créées.
 - **Achats et remboursements :** ils sont gérés par Google Play selon ses conditions et ses règles de remboursement, qui
   incluent votre droit de rétractation lorsqu'il s'applique.
 - **Changements de prix :** Google Play vous prévient à l'avance, selon ses règles.

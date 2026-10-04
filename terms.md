@@ -58,7 +58,7 @@ data are free. Your own data is never locked behind a payment.
 - **When it ends:** nothing is deleted. Your recurring transactions are paused, your category budgets are hidden,
   profiles other than the main one become read-only (you can view, export and delete them), and everything created with
   Balora Plus (such as imported or generated transactions) stays in the app. Subscribing again brings everything back;
-  recurring transactions that fell due while you had no subscription are not created.
+  recurring transactions that fell due more than a week before, while you had no subscription, are not created.
 - **Purchases and refunds:** they are handled by Google Play under its terms and refund policies, which include your
   right of withdrawal where it applies.
 - **Price changes:** Google Play notifies you in advance, according to its rules.

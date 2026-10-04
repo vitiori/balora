@@ -60,7 +60,7 @@ son gratis. Tus propios datos nunca quedan detrás de un pago.
 - **Al terminar:** no se borra nada. Tus movimientos recurrentes quedan en pausa, tus presupuestos por categoría se
   ocultan, los perfiles que no son el principal quedan de solo lectura (puedes verlos, exportarlos y borrarlos) y todo
   lo creado con Balora Plus (como los movimientos importados o generados) sigue en la app. Si vuelves a suscribirte,
-  todo vuelve; los movimientos recurrentes que vencieron mientras no tenías la suscripción no se crean.
+  todo vuelve; los movimientos recurrentes que vencieron sin la suscripción hace más de una semana no se crean.
 - **Compras y reembolsos:** los gestiona Google Play según sus condiciones y políticas de reembolso, que incluyen tu
   derecho de desistimiento cuando corresponda.
 - **Cambios de precio:** Google Play te avisa con antelación, según sus normas.
