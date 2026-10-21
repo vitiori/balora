@@ -36,7 +36,8 @@ Todo lo que apuntas se guarda solo en el almacenamiento privado de la app, en tu
 - Movimientos (gastos e ingresos), saldos de tus cuentas, categorías, presupuestos, movimientos recurrentes y ajustes.
 - **Perfiles:** si tienes varios (por ejemplo, uno personal y otro de trabajo), cada uno guarda sus datos y sus ajustes
   por separado, también dentro del móvil.
-- **Importar extractos del banco:** el fichero que eliges se lee en el móvil y no se guarda. Balora conserva los
+- **Importar extractos del banco:** el fichero que eliges (CSV, Excel, Norma 43, OFX, QIF o CAMT) se lee en el móvil
+  y no se guarda. Balora conserva los
   movimientos que importas, el número de cuenta (IBAN) y el concepto original de cada movimiento importado, para no
   importar dos veces el mismo, y las plantillas de importación que guardes.
 - **Copia automática interna:** cada día, después de tus cambios (como mucho una vez por hora) y al salir de la app si cambiaste algo, Balora guarda una copia
@@ -54,6 +55,10 @@ las copias que hayas exportado tú).
 | Usas la **copia en tu cuenta de Google** (Balora Plus, desactivada hasta que la actives) | La copia automática de cada perfil y la lista de tus perfiles, mediante el servicio de copias de seguridad de Android | Tu cuenta de Google. Solo se envía con Android 9 o posterior y con el bloqueo de pantalla activado, cifrada de extremo a extremo con él, así que ni Google ni el desarrollador pueden leerla; en Android 8 no se envía. Si la desactivas o termina la suscripción, Balora deja de enviar copias nuevas (como mucho al día siguiente), y la última que ya estaba la conserva Google según su servicio de copias de seguridad. Google la trata según su [Política de privacidad](https://policies.google.com/privacy?hl=es) |
 | **Cambias de móvil** con la transferencia de datos de Android | La copia automática de cada perfil y la lista de tus perfiles, copiadas directamente desde el móvil antiguo | Solo tu móvil nuevo |
 | **Nos escribes un correo** (también con «Enviar una sugerencia», que solo abre tu app de correo con nuestra dirección y un asunto) | Lo que escribas y tu dirección de correo. Balora no añade ningún texto ni dato al correo | El desarrollador, por correo desde tu propia app de correo |
+
+«Recomendar la aplicación» abre el menú de compartir de Android con un mensaje y el enlace a la ficha de Google Play.
+El enlace solo indica que la instalación viene de una recomendación (Google Play Console cuenta cuántas) y no lleva
+ningún dato tuyo ni de tu móvil; lo envías tú a quien elijas.
 
 ## 4. Compras: Balora Plus y apoyo al desarrollo
 
@@ -88,14 +93,15 @@ desbloqueo ha sido correcto: tus datos biométricos nunca llegan a la app.
 - **Compras de Google Play:** para Balora Plus y los pagos de apoyo.
 - **Permisos técnicos** que añaden las librerías de Android: ver el estado de la red (lo pide la librería de tareas
   programadas; Balora no se conecta a internet), ponerse en marcha al encender el móvil (para volver a programar los
-  recordatorios) y mantener el móvil activo un momento mientras termina una tarea.
+  recordatorios), mantener el móvil activo un momento mientras termina una tarea y, si una tarea larga lo necesitara,
+  seguir con ella en primer plano.
 
 Balora **no** pide acceso a internet, ubicación, contactos, cámara, micrófono ni el identificador de publicidad.
 
 ## 9. Sin anuncios, sin analítica, sin venta de datos
 
-Balora no contiene publicidad ni herramientas de analítica o seguimiento, y el desarrollador no vende, alquila ni
-comparte ningún dato personal.
+Balora no contiene publicidad ni herramientas de analítica o seguimiento, no envía tus datos a servicios de
+inteligencia artificial, y el desarrollador no vende, alquila ni comparte ningún dato personal.
 
 ## 10. Base legal y conservación
 

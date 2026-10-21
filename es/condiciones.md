@@ -24,7 +24,7 @@ usarla aceptas estas condiciones. Cómo se tratan tus datos se explica en la
 ## 2. No es asesoramiento financiero
 
 Balora te ayuda a apuntar y entender tu propio dinero. Sus cifras e indicadores (tasa de ahorro, salud financiera,
-meses cubiertos, ratio FI, previsiones y presupuestos propuestos) son estimaciones informativas calculadas con los datos
+meses cubiertos, ratio FI, progresión del patrimonio, previsiones y presupuestos propuestos) son estimaciones informativas calculadas con los datos
 que introduces. No son asesoramiento financiero, de inversión, fiscal ni legal.
 
 ## 3. Tus datos y tus copias

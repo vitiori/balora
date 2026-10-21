@@ -23,7 +23,7 @@ accept these terms. How your data is handled is explained in the [privacy policy
 ## 2. Not financial advice
 
 Balora helps you record and understand your own money. Its figures and indicators (savings rate, financial health
-score, months covered, FI ratio, forecasts and suggested budgets) are informative estimates calculated from the data you
+score, months covered, FI ratio, net worth growth, forecasts and suggested budgets) are informative estimates calculated from the data you
 enter. They are not financial, investment, tax or legal advice.
 
 ## 3. Your data and your backups
@@ -46,7 +46,7 @@ data are free. Your own data is never locked behind a payment.
 
 ## 6. Balora Plus subscription
 
-- **What it includes:** bank statement import, recurring transactions, budgets by category, the Analysis tab, having
+- **What it includes:** bank statement import, recurring transactions, budgets by category, the Insights tab, having
   more than one profile and the backup to your Google account (on Android 9 or later, with a screen lock set).
 - **Plans:** monthly or annual. The price in your country, with taxes, is shown by Google Play before you subscribe.
 - **Free trial:** new subscribers get a 14-day free trial, once per Google account. Google Play asks for a payment

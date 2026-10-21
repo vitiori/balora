@@ -24,7 +24,7 @@ Balora est une application de finances personnelles pour Android développée pa
 ## 2. Ce n'est pas un conseil financier
 
 Balora vous aide à noter et à comprendre votre propre argent. Ses chiffres et indicateurs (taux d'épargne, santé
-financière, mois couverts, ratio FI, prévisions et budgets proposés) sont des estimations indicatives calculées à partir
+financière, mois couverts, ratio IF, progression du patrimoine, prévisions et budgets proposés) sont des estimations indicatives calculées à partir
 des données que vous saisissez. Ils ne constituent pas un conseil financier, d'investissement, fiscal ou juridique.
 
 ## 3. Vos données et vos sauvegardes
@@ -58,7 +58,7 @@ bloquées derrière un paiement.
   commence et la première période est facturée.
 - **Renouvellement :** l'abonnement se renouvelle automatiquement à la fin de chaque période jusqu'à sa résiliation.
 - **Résiliation :** vous pouvez résilier à tout moment dans Google Play (*Paiements et abonnements › Abonnements*) ou
-  depuis *Réglages › Balora Plus* dans l'application. Vous gardez l'accès jusqu'à la fin de la période payée.
+  depuis *Paramètres › Balora Plus* dans l'application. Vous gardez l'accès jusqu'à la fin de la période payée.
 - **À la fin :** rien n'est supprimé. Vos opérations récurrentes sont mises en pause, vos budgets par catégorie sont
   masqués, les profils autres que le principal passent en lecture seule (vous pouvez les consulter, les exporter et les
   supprimer) et tout ce qui a été créé avec Balora Plus (comme les opérations importées ou générées) reste dans

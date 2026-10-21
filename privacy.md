@@ -36,7 +36,8 @@ Everything you enter is stored only in the app's private storage on your phone:
 - Transactions (expenses and income), account balances, categories, budgets, recurring transactions and settings.
 - **Profiles:** if you have several (for example, a personal one and a work one), each keeps its own data and settings
   separately, also on the phone.
-- **Bank statement import:** the file you choose is read on your phone and is not kept. Balora keeps the transactions
+- **Bank statement import:** the file you choose (CSV, Excel, Norma 43, OFX, QIF or CAMT) is read on your phone and
+  is not kept. Balora keeps the transactions
   you import, the account number (IBAN) and the original description of each imported transaction, so the same
   transaction is not imported twice, and the import templates you save.
 - **Automatic internal backup:** every day, after your changes (at most once an hour) and when you leave the app if you changed something, Balora keeps a copy of each
@@ -54,6 +55,10 @@ the backups you have exported yourself).
 | You use the **Google account backup** (Balora Plus, off until you turn it on) | The automatic backup of each profile and the list of your profiles, through Android's backup service | Your Google account. It is only sent on Android 9 or later with a screen lock set, end-to-end encrypted with it, so neither Google nor the developer can read it; on Android 8 it is not sent. If you turn it off or your subscription ends, Balora stops sending new backups (by the next day at the latest), and Google keeps the last one under its backup service. Google handles it under the [Google Privacy Policy](https://policies.google.com/privacy) |
 | You **move to a new phone** with Android's data transfer | The automatic backup of each profile and the list of your profiles, copied directly from the old phone | Only your new phone |
 | You **email us** (also with "Send a suggestion", which only opens your email app with our address and a subject) | What you write and your email address. Balora adds no text or data to the email | The developer, by email from your own email app |
+
+"Recommend the app" opens Android's share menu with a message and the link to the Google Play listing. The link only
+says that the install comes from a recommendation (Google Play Console counts how many) and carries no data about you
+or your phone; you send it yourself to whoever you choose.
 
 ## 4. Purchases: Balora Plus and support
 
@@ -86,15 +91,15 @@ whether the unlock succeeded: your biometric data never reaches the app.
 - **Biometrics:** only for the optional app lock.
 - **Google Play purchases:** for Balora Plus and support payments.
 - **Technical permissions** added by Android's libraries: view network state (requested by the scheduled-tasks library;
-  Balora does not connect to the internet), start when the phone is switched on (to reschedule reminders) and keep the
-  phone awake for a moment while a task finishes.
+  Balora does not connect to the internet), start when the phone is switched on (to reschedule reminders), keep the
+  phone awake for a moment while a task finishes and, if a long task ever needed it, carry on with it in the foreground.
 
 Balora does **not** request internet access, location, contacts, camera, microphone or the advertising ID.
 
 ## 9. No ads, no analytics, no sale of data
 
-Balora contains no advertising, analytics or tracking tools, and the developer does not sell, rent or share any personal
-data.
+Balora contains no advertising, analytics or tracking tools, does not send your data to artificial intelligence services,
+and the developer does not sell, rent or share any personal data.
 
 ## 10. Legal basis and retention
 
