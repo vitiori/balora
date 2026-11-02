@@ -10,9 +10,9 @@ country:
   fr: Espagne
 email: developer.vitio@gmail.com
 updated:
-  en: 21 October 2026
-  es: 21 de octubre de 2026
-  fr: 21 octobre 2026
+  en: 2 November 2026
+  es: 2 de noviembre de 2026
+  fr: 2 novembre 2026
 
 exclude:
   - README.md

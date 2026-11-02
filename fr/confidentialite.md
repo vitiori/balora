@@ -35,7 +35,9 @@ politique. Contact : [{{ site.email }}](mailto:{{ site.email }}).
 Tout ce que vous saisissez est enregistré uniquement dans le stockage privé de l'application, sur votre téléphone :
 
 - Les opérations (dépenses et revenus), les soldes de vos comptes, les catégories, les budgets, les opérations
-  récurrentes et les réglages.
+  récurrentes, les étiquettes (voyages et projets) et les réglages.
+- **Corbeille :** ce que vous supprimez dans Opérations est gardé 30 jours pour que vous puissiez le restaurer ; ensuite
+  il est effacé automatiquement, ou plus tôt si vous le supprimez de la corbeille.
 - **Profils :** si vous en avez plusieurs (par exemple un personnel et un professionnel), chacun garde ses données et
   ses réglages séparément, y compris sur le téléphone.
 - **Import de relevés bancaires :** le fichier que vous choisissez (CSV, Excel, Norma 43, OFX, QIF ou CAMT) est lu sur
@@ -45,6 +47,8 @@ Tout ce que vous saisissez est enregistré uniquement dans le stockage privé de
 - **Sauvegarde automatique interne :** chaque jour, après vos modifications (au plus une fois par heure) et quand vous quittez l'application si vous avez modifié quelque chose, Balora garde
   une copie des données de chaque profil dans son stockage privé pour pouvoir les récupérer si la base de données est
   endommagée. Elle ne quitte le téléphone qu'avec la sauvegarde d'Android (section 3).
+- **Image « Votre année » :** quand vous partagez le bilan de votre année, Balora crée une image sans aucun montant dans
+  son stockage temporaire ; elle la remplace au partage suivant et Android peut l'effacer s'il a besoin de place.
 
 Le développeur n'a accès à rien de tout cela. Désinstaller l'application ou effacer ses données les supprime du
 téléphone (sauf les sauvegardes que vous avez exportées vous-même).
@@ -56,6 +60,8 @@ téléphone (sauf les sauvegardes que vous avez exportées vous-même).
 | Vous **exportez une sauvegarde** | Toutes vos données Balora, de tous vos profils, dans un fichier chiffré avec votre mot de passe ou en fichiers CSV (au choix) | Uniquement l'endroit que vous choisissez (le stockage du téléphone, une clé USB, un service cloud que vous utilisez…) |
 | Vous utilisez la **sauvegarde sur votre compte Google** (Balora Plus, désactivée tant que vous ne l'activez pas) | La sauvegarde automatique de chaque profil et la liste de vos profils, via le service de sauvegarde d'Android | Votre compte Google. Elle n'est envoyée qu'avec Android 9 ou ultérieur et le verrouillage de l'écran activé, chiffrée de bout en bout avec celui-ci : ni Google ni le développeur ne peuvent la lire ; sous Android 8, elle n'est pas envoyée. Si vous la désactivez ou si l'abonnement prend fin, Balora n'envoie plus de nouvelles sauvegardes (au plus tard le lendemain), et Google conserve la dernière selon son service de sauvegarde. Google la traite selon ses [Règles de confidentialité](https://policies.google.com/privacy?hl=fr) |
 | Vous **changez de téléphone** avec le transfert de données d'Android | La sauvegarde automatique de chaque profil et la liste de vos profils, copiées directement depuis l'ancien téléphone | Uniquement votre nouveau téléphone |
+| Vous **enregistrez le rapport annuel en PDF** (Balora Plus) | Les chiffres de l'année choisie : revenus, dépenses, solde et dépenses par catégorie et par mois. Il est créé sur le téléphone | Uniquement l'endroit que vous choisissez avec le sélecteur de fichiers d'Android |
+| Vous **partagez « Votre année »** | Une image avec vos réussites de l'année (jours avec des saisies, séries, meilleur mois, catégorie phare, niveau de la mascotte), sans aucun montant | L'application ou la personne que vous choisissez dans le menu de partage d'Android |
 | Vous **nous écrivez un e-mail** (aussi avec « Envoyer une suggestion », qui ouvre seulement votre messagerie avec notre adresse et un objet) | Ce que vous écrivez et votre adresse e-mail. Balora n'ajoute aucun texte ni aucune donnée à l'e-mail | Le développeur, par e-mail depuis votre propre application de messagerie |
 
 « Recommander l'application » ouvre le menu de partage d'Android avec un message et le lien vers la fiche Google Play.
@@ -91,8 +97,10 @@ l'application.
 
 ## 8. Autorisations
 
-- **Notifications :** pour le rappel mensuel des soldes, les opérations récurrentes à confirmer et les alertes de
-  budget. Vous pouvez les désactiver à tout moment.
+- **Notifications :** pour le rappel mensuel des soldes, les opérations récurrentes à confirmer, les alertes de
+  budget, l'avis que votre bilan du mois ou de l'année est prêt et, seulement dans les 14 jours qui suivent
+  l'installation, au plus trois rappels pour commencer. Aucune n'affiche de montant. Vous pouvez les désactiver à tout
+  moment, toutes ou par type, dans les réglages d'Android.
 - **Biométrie :** uniquement pour le verrouillage facultatif de l'application.
 - **Achats Google Play :** pour Balora Plus et les paiements de soutien.
 - **Autorisations techniques** ajoutées par les bibliothèques d'Android : voir l'état du réseau (demandée par la

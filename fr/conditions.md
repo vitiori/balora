@@ -41,16 +41,16 @@ catégories automatiquement ; vérifiez le résultat avant d'importer.
 
 ## 5. Fonctions gratuites
 
-Noter vos dépenses et revenus, les widgets, le résumé, le patrimoine, le rapport annuel, la mascotte, le verrouillage de
-l'application, le transfert de vos données vers un nouveau téléphone avec Android, l'export et l'import de vos
+Noter vos dépenses et revenus, les widgets, le résumé, le patrimoine, le rapport annuel, la mascotte, les étiquettes, la
+corbeille, les bilans du mois et de l'année, le verrouillage de l'application, le transfert de vos données vers un nouveau téléphone avec Android, l'export et l'import de vos
 sauvegardes (avec tous vos profils) et l'effacement de vos données sont gratuits. Vos propres données ne sont jamais
 bloquées derrière un paiement.
 
 ## 6. Abonnement Balora Plus
 
 - **Ce qu'il comprend :** l'import de relevés bancaires, les opérations récurrentes, les budgets par catégorie,
-  l'onglet Analyse, plusieurs profils et la sauvegarde sur votre compte Google (avec Android 9 ou ultérieur et le
-  verrouillage de l'écran activé).
+  l'onglet Analyse, plusieurs profils, le rapport annuel en PDF, l'écran « Voyages et projets » avec le mode voyage et la
+  sauvegarde sur votre compte Google (avec Android 9 ou ultérieur et le verrouillage de l'écran activé).
 - **Formules :** mensuelle ou annuelle. Le prix dans votre pays, taxes comprises, est affiché par Google Play avant de
   vous abonner.
 - **Essai gratuit :** les nouveaux abonnés bénéficient de 14 jours d'essai gratuit, une fois par compte Google. Google
@@ -60,7 +60,7 @@ bloquées derrière un paiement.
 - **Résiliation :** vous pouvez résilier à tout moment dans Google Play (*Paiements et abonnements › Abonnements*) ou
   depuis *Paramètres › Balora Plus* dans l'application. Vous gardez l'accès jusqu'à la fin de la période payée.
 - **À la fin :** rien n'est supprimé. Vos opérations récurrentes sont mises en pause, vos budgets par catégorie sont
-  masqués, les profils autres que le principal passent en lecture seule (vous pouvez les consulter, les exporter et les
+  masqués, le mode voyage ne s'applique plus (vos opérations gardent leurs étiquettes), les profils autres que le principal passent en lecture seule (vous pouvez les consulter, les exporter et les
   supprimer) et tout ce qui a été créé avec Balora Plus (comme les opérations importées ou générées) reste dans
   l'application. Si vous vous réabonnez, tout revient ; les opérations récurrentes arrivées à échéance sans abonnement il y a
   plus d'une semaine ne sont pas créées. La sauvegarde sur votre compte Google n'est plus mise à jour (Google conserve la dernière selon son service de sauvegarde).

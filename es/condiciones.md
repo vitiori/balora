@@ -41,15 +41,15 @@ revisa el resultado antes de importar.
 
 ## 5. Funciones gratuitas
 
-Apuntar gastos e ingresos, los widgets, el resumen, el patrimonio, el informe anual, la mascota, el bloqueo de la app,
-pasar tus datos a un móvil nuevo con Android, exportar e importar tus copias (con todos tus perfiles) y borrar tus datos
+Apuntar gastos e ingresos, los widgets, el resumen, el patrimonio, el informe anual, la mascota, las etiquetas, la papelera,
+los resúmenes del mes y del año, el bloqueo de la app, pasar tus datos a un móvil nuevo con Android, exportar e importar tus copias (con todos tus perfiles) y borrar tus datos
 son gratis. Tus propios datos nunca quedan detrás de un pago.
 
 ## 6. Suscripción Balora Plus
 
 - **Qué incluye:** importar extractos del banco, movimientos recurrentes, presupuestos por categoría, la pestaña
-  Análisis, tener más de un perfil y la copia en tu cuenta de Google (con Android 9 o posterior y el bloqueo de pantalla
-  activado).
+  Análisis, tener más de un perfil, el informe anual en PDF, la pantalla «Viajes y proyectos» con el modo viaje y la copia en
+  tu cuenta de Google (con Android 9 o posterior y el bloqueo de pantalla activado).
 - **Planes:** mensual o anual. El precio en tu país, con impuestos, te lo muestra Google Play antes de suscribirte.
 - **Prueba gratis:** quien se suscribe por primera vez tiene 14 días de prueba gratis, una vez por cuenta de Google.
   Google Play pide un método de pago para empezarla. Si no cancelas antes de que termine la prueba, empieza la
@@ -58,7 +58,7 @@ son gratis. Tus propios datos nunca quedan detrás de un pago.
 - **Cancelación:** puedes cancelar cuando quieras en Google Play (*Pagos y suscripciones › Suscripciones*) o desde
   *Ajustes › Balora Plus* en la app. Mantienes el acceso hasta el final del periodo pagado.
 - **Al terminar:** no se borra nada. Tus movimientos recurrentes quedan en pausa, tus presupuestos por categoría se
-  ocultan, los perfiles que no son el principal quedan de solo lectura (puedes verlos, exportarlos y borrarlos) y todo
+  ocultan, el modo viaje deja de aplicarse (tus movimientos conservan sus etiquetas), los perfiles que no son el principal quedan de solo lectura (puedes verlos, exportarlos y borrarlos) y todo
   lo creado con Balora Plus (como los movimientos importados o generados) sigue en la app. Si vuelves a suscribirte,
   todo vuelve; los movimientos recurrentes que vencieron sin la suscripción hace más de una semana no se crean. La copia en tu cuenta de Google deja de actualizarse (la última la conserva Google según su servicio de copias de seguridad).
 - **Compras y reembolsos:** los gestiona Google Play según sus condiciones y políticas de reembolso, que incluyen tu

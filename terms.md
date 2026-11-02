@@ -40,14 +40,15 @@ review the result before importing.
 
 ## 5. Free features
 
-Recording expenses and income, the widgets, the summary, net worth, the annual report, the mascot, the app lock, moving
-your data to a new phone with Android, exporting and importing your backups (with all your profiles) and deleting your
+Recording expenses and income, the widgets, the summary, net worth, the annual report, the mascot, tags, Recently deleted,
+the monthly and yearly summaries, the app lock, moving your data to a new phone with Android, exporting and importing your backups (with all your profiles) and deleting your
 data are free. Your own data is never locked behind a payment.
 
 ## 6. Balora Plus subscription
 
 - **What it includes:** bank statement import, recurring transactions, budgets by category, the Insights tab, having
-  more than one profile and the backup to your Google account (on Android 9 or later, with a screen lock set).
+  more than one profile, the annual report as a PDF, the "Trips and projects" screen with trip mode and the backup to
+  your Google account (on Android 9 or later, with a screen lock set).
 - **Plans:** monthly or annual. The price in your country, with taxes, is shown by Google Play before you subscribe.
 - **Free trial:** new subscribers get a 14-day free trial, once per Google account. Google Play asks for a payment
   method to start it. If you do not cancel before the trial ends, the subscription starts and the first period is
@@ -56,6 +57,7 @@ data are free. Your own data is never locked behind a payment.
 - **Cancellation:** you can cancel at any time in Google Play (*Payments & subscriptions › Subscriptions*) or from
   *Settings › Balora Plus* in the app. You keep access until the end of the period you have paid for.
 - **When it ends:** nothing is deleted. Your recurring transactions are paused, your category budgets are hidden,
+  trip mode stops applying (your transactions keep their tags),
   profiles other than the main one become read-only (you can view, export and delete them), and everything created with
   Balora Plus (such as imported or generated transactions) stays in the app. Subscribing again brings everything back;
   recurring transactions that fell due more than a week before, while you had no subscription, are not created. The backup in your Google account stops being updated (Google keeps the last one under its backup service).
