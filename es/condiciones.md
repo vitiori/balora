@@ -13,7 +13,7 @@ alternates:
 
 # Condiciones de uso
 
-<p class="updated">Última actualización: {{ site.updated.es }}</p>
+<p class="updated">Última actualización: {{ site.terms_updated.es }}</p>
 
 ## 1. Sobre Balora
 

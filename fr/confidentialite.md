@@ -37,7 +37,7 @@ Tout ce que vous saisissez est enregistré uniquement dans le stockage privé de
 - Les opérations (dépenses et revenus), les soldes de vos comptes, les catégories, les budgets, les opérations
   récurrentes, les étiquettes (voyages et projets) et les réglages.
 - **Corbeille :** ce que vous supprimez dans Opérations est gardé 30 jours pour que vous puissiez le restaurer ; ensuite
-  il est effacé automatiquement, ou plus tôt si vous le supprimez de la corbeille.
+  il est effacé automatiquement, ou plus tôt si vous le supprimez de la corbeille (sauf l'exception expliquée à la section 12).
 - **Profils :** si vous en avez plusieurs (par exemple un personnel et un professionnel), chacun garde ses données et
   ses réglages séparément, y compris sur le téléphone.
 - **Import de relevés bancaires :** le fichier que vous choisissez (CSV, Excel, Norma 43, OFX, QIF ou CAMT) est lu sur
@@ -132,24 +132,56 @@ limiter le traitement ou vous y opposer, et demander leur portabilité, en écri
 protection des données : en France, la [CNIL](https://www.cnil.fr) ; en Espagne, l'[AEPD](https://www.aepd.es).
 
 Vos données financières se trouvent uniquement sur votre téléphone : vous pouvez les exporter, les modifier ou les
-supprimer vous-même dans l'application à tout moment (pour toutes les supprimer : *Paramètres › Profil › Effacer les
-données de ce profil*, gratuitement).
+supprimer vous-même dans l'application à tout moment (la section 12 explique comment).
 
-## 12. Sécurité
+## 12. Comment supprimer vos données
+
+Balora n'a ni comptes utilisateur ni serveurs : il n'y a aucun compte à supprimer et le développeur ne garde ni vos
+opérations ni vos soldes. Vous les supprimez donc vous-même, sans rien demander à personne et gratuitement.
+
+- **Une opération :** dans Opérations, faites-la glisser vers la gauche. Elle passe dans la corbeille (bouton 🗑 de cet
+  écran), où vous pouvez la restaurer ou la supprimer définitivement, une par une ou avec « Vider ».
+- **Un solde :** supprimez-le depuis Patrimoine.
+- **Ce qui figurait déjà dans une sauvegarde :** si une opération ou un solde supprimé figurait déjà dans une sauvegarde
+  exportée ou venait d'un autre téléphone, il n'est plus visible, mais l'application garde ses données avec une marque de
+  suppression, y compris dans les sauvegardes que vous exportez ensuite, pour que l'import de la sauvegarde précédente ne
+  le fasse pas revenir. Pour retirer aussi cette marque, effacez les données du profil.
+- **Toutes les données d'un profil :** *Paramètres › Profil › Effacer les données de ce profil*. Cela efface les
+  opérations, les soldes, les récurrences, les budgets, les étiquettes, les imports bancaires et sa sauvegarde
+  automatique. Les catégories et les réglages (y compris les modèles d'import) restent. Si ce n'est pas le profil
+  principal, *Supprimer ce profil* le retire entièrement.
+- **Tout ce qui se trouve sur le téléphone :** désinstallez l'application ou effacez ses données dans les réglages
+  d'Android. Tous les profils sont supprimés.
+- **Sauvegardes exportées, rapports PDF et images partagées :** Balora ne peut pas y accéder. Supprimez-les là où vous
+  les avez enregistrés ou envoyés. Si vous importez une sauvegarde antérieure, ses données reviennent.
+- **Sauvegarde sur votre compte Google :** si vous la désactivez, Balora n'envoie plus de nouvelles sauvegardes, mais la
+  dernière reste chez Google. Après l'effacement des données d'un profil, la sauvegarde suivante d'Android ne les
+  contient plus. Si vous réinstallez l'application et qu'elle propose de récupérer une sauvegarde, choisissez
+  « Non, la supprimer ». Pour supprimer la sauvegarde conservée par Google, allez sur le
+  [tableau de bord Android de votre compte Google](https://myaccount.google.com/dashboard/android). C'est Google qui le
+  gère : cette option peut supprimer la sauvegarde de tout l'appareil, pas seulement celle de Balora ; lisez donc bien ce
+  qui est indiqué avant de confirmer.
+- **Vos e-mails avec le développeur :** demandez leur suppression en écrivant à
+  [{{ site.email }}](mailto:{{ site.email }}).
+- **Informations d'achat :** les informations de commande sont conservées pendant la durée exigée par les règles
+  comptables et fiscales (section 10) et ne peuvent donc pas être supprimées plus tôt. Vos données de paiement sont gérées
+  par Google dans votre compte Google.
+
+## 13. Sécurité
 
 Les sauvegardes chiffrées utilisent AES-256-GCM avec une clé dérivée de votre mot de passe (PBKDF2, 600 000 itérations).
 Si vous oubliez le mot de passe, personne ne peut récupérer la sauvegarde. L'application peut être protégée par le
 verrouillage de l'écran du téléphone.
 
-## 13. Mineurs
+## 14. Mineurs
 
 Balora est destinée aux adultes et ne s'adresse pas aux mineurs.
 
-## 14. Modifications de cette politique
+## 15. Modifications de cette politique
 
 Si cette politique change, la nouvelle version sera publiée sur cette page avec sa date. Les changements importants
 seront aussi annoncés dans l'application.
 
-## 15. Contact
+## 16. Contact
 
 [{{ site.email }}](mailto:{{ site.email }})

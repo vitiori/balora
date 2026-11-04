@@ -36,7 +36,7 @@ Todo lo que apuntas se guarda solo en el almacenamiento privado de la app, en tu
 - Movimientos (gastos e ingresos), saldos de tus cuentas, categorías, presupuestos, movimientos recurrentes, etiquetas
   (viajes y proyectos) y ajustes.
 - **Papelera:** lo que borras de Movimientos se guarda 30 días para que puedas restaurarlo; después se elimina solo, o
-  antes si lo borras de la papelera.
+  antes si lo borras de la papelera (con la excepción que explica el apartado 12).
 - **Perfiles:** si tienes varios (por ejemplo, uno personal y otro de trabajo), cada uno guarda sus datos y sus ajustes
   por separado, también dentro del móvil.
 - **Importar extractos del banco:** el fichero que eliges (CSV, Excel, Norma 43, OFX, QIF o CAMT) se lee en el móvil
@@ -127,22 +127,51 @@ reclamar ante una autoridad de protección de datos; en España, la
 [Agencia Española de Protección de Datos](https://www.aepd.es).
 
 Tus datos financieros están solo en tu móvil: puedes exportarlos, cambiarlos o borrarlos tú mismo en la app cuando
-quieras (para borrarlos todos: *Ajustes › Perfil › Borrar los datos de este perfil*, gratis).
+quieras (el apartado 12 explica cómo).
 
-## 12. Seguridad
+## 12. Cómo borrar tus datos
+
+Balora no tiene cuentas de usuario ni servidores: no hay ninguna cuenta que eliminar y el desarrollador no guarda tus
+movimientos ni tus saldos, así que los borras tú, sin pedírselo a nadie y gratis.
+
+- **Un movimiento:** en Movimientos, deslízalo a la izquierda. Pasa a la papelera (botón 🗑 de esa pantalla), donde
+  puedes restaurarlo o borrarlo definitivamente, uno a uno o con «Vaciar».
+- **Un saldo:** bórralo desde Patrimonio.
+- **Lo que ya estaba en una copia:** si un movimiento o un saldo borrado ya estaba en una copia exportada o llegó de otro
+  móvil, deja de verse, pero la app guarda sus datos con una marca de borrado, también en las copias que exportes
+  después, para que importar la copia anterior no lo recupere. Para quitar también esa marca, borra los datos del perfil.
+- **Todos los datos de un perfil:** *Ajustes › Perfil › Borrar los datos de este perfil*. Borra movimientos, saldos,
+  recurrentes, presupuestos, etiquetas, importaciones del banco y su copia automática. Las categorías y los ajustes
+  (también las plantillas de importación) se quedan. Si no es el perfil principal, *Eliminar este perfil* lo quita entero.
+- **Todo lo que hay en el móvil:** desinstala la app o borra sus datos en los ajustes de Android. Se eliminan todos los
+  perfiles.
+- **Copias exportadas, informes en PDF e imágenes compartidas:** Balora no puede llegar a ellos. Bórralos allí donde los
+  guardaste o enviaste. Si importas una copia anterior, sus datos vuelven.
+- **Copia en tu cuenta de Google:** al desactivarla, Balora deja de enviar copias nuevas, pero la última sigue en Google.
+  Después de borrar los datos de un perfil, la siguiente copia que haga Android ya no los lleva. Si reinstalas la app y
+  te ofrece recuperar una copia, elige «No, borrarla». Para borrar la copia que tiene Google, entra en el
+  [panel de Android de tu cuenta de Google](https://myaccount.google.com/dashboard/android). Lo gestiona Google: esa
+  opción puede borrar la copia de todo el dispositivo, no solo la de Balora, así que lee bien lo que indica antes de
+  confirmar.
+- **Tus correos con el desarrollador:** pide que se borren escribiendo a
+  [{{ site.email }}](mailto:{{ site.email }}).
+- **Datos de compras:** la información de los pedidos se conserva el plazo que exigen las normas contables y fiscales
+  (apartado 10), así que no se puede borrar antes. Tus datos de pago los gestiona Google en tu cuenta de Google.
+
+## 13. Seguridad
 
 Las copias cifradas usan AES-256-GCM con una clave derivada de tu contraseña (PBKDF2, 600.000 iteraciones). Si olvidas
 la contraseña, nadie puede recuperar la copia. La app se puede proteger con el bloqueo de pantalla del móvil.
 
-## 13. Menores
+## 14. Menores
 
 Balora está pensada para adultos y no se dirige a menores.
 
-## 14. Cambios en esta política
+## 15. Cambios en esta política
 
 Si esta política cambia, la nueva versión se publicará en esta página con su fecha. Los cambios importantes se avisarán
 también en la app.
 
-## 15. Contacto
+## 16. Contacto
 
 [{{ site.email }}](mailto:{{ site.email }})

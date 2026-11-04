@@ -13,7 +13,7 @@ alternates:
 
 # Terms of use
 
-<p class="updated">Last updated: {{ site.updated.en }}</p>
+<p class="updated">Last updated: {{ site.terms_updated.en }}</p>
 
 ## 1. About Balora
 

@@ -36,7 +36,7 @@ Everything you enter is stored only in the app's private storage on your phone:
 - Transactions (expenses and income), account balances, categories, budgets, recurring transactions, tags (trips and
   projects) and settings.
 - **Recently deleted:** what you delete from Transactions is kept for 30 days so you can restore it; after that it is
-  removed automatically, or sooner if you delete it from there.
+  removed automatically, or sooner if you delete it from there (with the exception explained in section 12).
 - **Profiles:** if you have several (for example, a personal one and a work one), each keeps its own data and settings
   separately, also on the phone.
 - **Bank statement import:** the file you choose (CSV, Excel, Norma 43, OFX, QIF or CAMT) is read on your phone and
@@ -125,22 +125,49 @@ right to lodge a complaint with a data protection authority; in Spain, the
 [Agencia Española de Protección de Datos](https://www.aepd.es).
 
 Your financial data is only on your phone: you can export it, change it or delete it yourself in the app at any time
-(to delete all of it: *Settings › Profile › Delete this profile's data*, free).
+(section 12 explains how).
 
-## 12. Security
+## 12. How to delete your data
+
+Balora has no user accounts or servers: there is no account to delete and the developer does not keep your transactions
+or balances, so you delete them yourself, without asking anyone and for free.
+
+- **A transaction:** in Transactions, swipe it to the left. It moves to Recently deleted (the 🗑 button on that screen),
+  where you can restore it or delete it permanently, one by one or with "Delete all".
+- **A balance:** delete it from Net worth.
+- **What was already in a backup:** if a deleted transaction or balance was already in an exported backup or came from
+  another phone, it no longer shows, but the app keeps its data with a deletion mark, also in the backups you export
+  later, so that importing the earlier backup does not bring it back. To remove that mark too, delete the profile's data.
+- **All the data in a profile:** *Settings › Profile › Delete this profile's data*. This deletes transactions, balances,
+  recurring items, budgets, tags, bank imports and its automatic backup. Categories and settings (including import
+  templates) stay. If it is not the main profile, *Delete this profile* removes it entirely.
+- **Everything on the phone:** uninstall the app or clear its data in your Android settings. All profiles are deleted.
+- **Exported backups, PDF reports and shared images:** Balora cannot reach them. Delete them wherever you saved or sent
+  them. If you import an earlier backup, its data comes back.
+- **Backup in your Google account:** when you turn it off, Balora stops sending new backups, but the last one stays with
+  Google. After you delete a profile's data, the next backup Android makes no longer includes it. If you reinstall the
+  app and it offers to recover a backup, choose "No, delete it". To delete the backup Google holds, go to the
+  [Android dashboard of your Google account](https://myaccount.google.com/dashboard/android). Google manages it: that
+  option may delete the backup of the whole device, not just Balora's, so read what it says carefully before confirming.
+- **Your emails with the developer:** ask for them to be deleted by writing to
+  [{{ site.email }}](mailto:{{ site.email }}).
+- **Purchase information:** order information is kept for the period required by accounting and tax law (section 10), so
+  it cannot be deleted sooner. Your payment details are managed by Google in your Google account.
+
+## 13. Security
 
 Encrypted backups use AES-256-GCM with a key derived from your password (PBKDF2, 600,000 iterations). If you forget the
 password, the backup cannot be recovered by anyone. The app can be protected with your phone's screen lock.
 
-## 13. Children
+## 14. Children
 
 Balora is intended for adults and is not directed at children.
 
-## 14. Changes to this policy
+## 15. Changes to this policy
 
 If this policy changes, the new version will be published on this page with its date. Significant changes will also be
 announced in the app.
 
-## 15. Contact
+## 16. Contact
 
 [{{ site.email }}](mailto:{{ site.email }})
